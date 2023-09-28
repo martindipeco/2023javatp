@@ -1,0 +1,19 @@
+/* styles.css */
+
+/* Style for the carousel text */
+.carousel-caption {
+    text-align: right;
+    padding-right: 1vw;
+    padding-bottom: 7vw;
+}
+
+/* Apply a brightness filter to the carousel images */
+.carousel-inner img {
+    filter: brightness(70%);
+}
+
+/* Change the text color of the transparent button to white */
+.btn-outline-secondary {
+    color: #fff; /* Set the text color to white */
+    border-color: #fff; /* Set the border color to white */
+}
