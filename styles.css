@@ -17,3 +17,7 @@
     color: #fff; /* Set the text color to white */
     border-color: #fff; /* Set the border color to white */
 }
+
+.custom-bg-grey {
+    background-color: #3d3c3c; /* Replace with your desired color code */
+}
