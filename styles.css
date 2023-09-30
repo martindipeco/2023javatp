@@ -1,5 +1,11 @@
 /* styles.css */
 
+#upper-menu {
+    position: sticky;
+    top: 0; /* Stick to the top of the viewport */
+    z-index: 100; /* Ensure it's above other content */
+}
+
 /* Style for the carousel text */
 .carousel-caption {
     text-align: right;
@@ -35,4 +41,28 @@
 
 .btn-light-green:active {
     background-color: green; /* Change the color when clicked/active */
+}
+
+/* Footer */
+
+/* Define a custom indigo background color */
+.custom-indigo-bg {
+    background-color: #002d49; /* Use your desired indigo color code */
+}
+
+.footer-links {
+    text-align: center; /* Center-align the links */
+    padding-left: 5vw; 
+    padding-right: 5vw; 
+}
+
+/* Custom CSS for white links */
+.footer-links a {
+    color: white;
+    text-decoration: none; /* Remove underlines from links */
+}
+
+/* Style for link hover */
+.footer-links a:hover {
+    color: #CCCCCC; /* Change color on hover */
 }

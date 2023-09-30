@@ -12,7 +12,7 @@
 <body>
 
 <!-- Upper Menu Bar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav id="upper-menu" class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">
         <img src="imagenes\codoacodo.png" alt="My Logo" style="max-height: 70px;">
         Conferencia Buenos Aires
@@ -23,16 +23,16 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#">La Conferencia</a>
+                <a class="nav-link" href="#myCarousel">La Conferencia</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Oradores</a>
+                <a class="nav-link" href="#oradores">Oradores</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Lugar y Fecha</a>
+                <a class="nav-link" href="#lugar-fecha">Lugar y Fecha</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Quiero ser orador</a>
+                <a class="nav-link" href="#formulario">Quiero ser orador</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#" style="color: #66cc66;">Comprar Tickets</a>
@@ -84,7 +84,7 @@
 
 
 <!-- Cards -->
-<div class="container mt-5">
+<div id="oradores" class="container mt-5">
     <!-- General Title and Subtitle -->
     <p class="text-center">CONOCE A LOS</p>
     <h2 class="text-center">ORADORES</h2>
@@ -142,7 +142,7 @@
 </div>
 
 <!-- Segundo ¿carousel? -->
-<div class="container mt-5">
+<div id="lugar-fecha" class="container mt-5">
     <div class="row">
         <!-- Image on the left half of the screen -->
         <div class="col-md-6">
@@ -160,7 +160,7 @@
 
 
 <!-- Contact Form -->
-<div class="container mt-5 mb-5">
+<div id="formulario" class="container mt-5 mb-5">
     <p class="text-center">CONVIERTETE EN</p>
     <h2 class="text-center">ORADOR</h2>
     <p class="text-center">Convertite en orador para dar una <a href="#">charla ignite</a> Contanos de qué querés hablar!</p>
@@ -188,15 +188,36 @@
     </div>
 </div>
 
-
-
-
-
-
 <!-- Footer -->
-<footer class="bg-dark text-white text-center py-3">
-    &copy; 2023 My Website
+<footer class="custom-indigo-bg text-white py-3">
+    <div class="container">
+        <div class="row footer-links">
+            <div class="col">
+                <a href="#">Preguntas frecuentes</a>
+            </div>
+            <div class="col">
+                <a href="#">Contactanos</a>
+            </div>
+            <div class="col">
+                <a href="#">Prensa</a>
+            </div>
+            <div class="col">
+                <a href="#">Conferencias</a>
+            </div>
+            <div class="col">
+                <a href="#">Términos y Condiciones</a>
+            </div>
+            <div class="col">
+                <a href="#">Privacidad</a>
+            </div>
+            <div class="col">
+                <a href="#">Estudiantes</a>
+            </div>
+        </div>
+    </div>
 </footer>
+
+
 
 <!-- Add Bootstrap JS and jQuery -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
