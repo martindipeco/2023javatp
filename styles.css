@@ -21,3 +21,18 @@
 .custom-bg-grey {
     background-color: #3d3c3c; /* Replace with your desired color code */
 }
+
+/* Custom button style */
+.btn-light-green {
+    background-color: limegreen; 
+    color: white; /* Optionally, you can set the text color to white for better contrast */
+}
+
+/* Hover and active states (adjust as needed) */
+.btn-light-green:hover {
+    background-color: lightgreen;
+}
+
+.btn-light-green:active {
+    background-color: green; /* Change the color when clicked/active */
+}
